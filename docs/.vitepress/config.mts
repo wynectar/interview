@@ -9,6 +9,7 @@ export default defineConfig({
     math: true,
   },
   lastUpdated: true,
+  base: '/interview/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
@@ -41,25 +42,25 @@ export default defineConfig({
       {
         text: '前端',
         items: [
-          { 
-            text: '笔试', 
+          {
+            text: '笔试',
             items: [
               { text: 'JS手写代码', link: '/front-end/write-code' },
               { text: 'JS读代码', link: '/front-end/read-code' }
-            ] 
+            ]
           },
-          { 
-            text: '一面', 
+          {
+            text: '一面',
             items: [
               { text: '计算机基础', link: '/front-end/one-base' },
               { text: 'HTML & CSS', link: '/front-end/one-httpcss' },
               { text: 'JS基础', link: '/front-end/one-js' },
               { text: 'TS', link: '/front-end/one-ts' },
               { text: 'HTTP网络请求', link: '/front-end/one-http' },
-            ] 
+            ]
           },
-          { 
-            text: '二面', 
+          {
+            text: '二面',
             items: [
               { text: 'Vue使用', link: '/front-end/two-vue-use' },
               { text: 'Vue原理', link: '/front-end/two-vue-principle' },
@@ -68,16 +69,16 @@ export default defineConfig({
               { text: '小程序', link: '/front-end/two-app' },
               { text: '前端工程化', link: '/front-end/two-engineering' },
               { text: 'Node.js', link: '/front-end/two-nodejs' },
-            ] 
+            ]
           },
-          { 
-            text: '三面', 
+          {
+            text: '三面',
             items: [
               { text: '交叉面试', link: '/front-end/three-more' },
               { text: '项目成绩/难点', link: '/front-end/three-project' },
               { text: '前端Leader面试', link: '/front-end/three-leader' },
               { text: '反问面试官', link: '/front-end/three-ask' },
-            ] 
+            ]
           },
         ]
       },
