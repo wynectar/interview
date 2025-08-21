@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./chunks/framework.Bw-5EFTY.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/one-js.md","filePath":"front-end/one-js.md","lastUpdated":null}'),o={name:"front-end/one-js.md"};function a(r,s,c,d,p,f){return n(),t("div")}const l=e(o,[["render",a]]);export{i as __pageData,l as default};

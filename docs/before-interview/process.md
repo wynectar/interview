@@ -1,0 +1,87 @@
+# 了解面试流程
+没有工作经验、面试经验的同学，需要先整体了解一下程序员面试的常规流程。
+
+## 寻找工作机会
+- 各大招聘网站或 App ，如拉勾、BOSS 直聘、脉脉等
+- 各大公司的招聘网站，如搜索 `字节招聘` 即可找到 https://jobs.bytedance.com/
+- 猎头推荐
+- 结识公司内部员工（同学，前同事，朋友等关系），内推
+- HR 主动联系你
+
+::: tip  
+如何让猎头、HR 找到你呢？—— 主动暴露自己
+
+- 发表高质量博客
+- 做社区有用的开源项目
+- 注册脉脉、LinkedIn 等，增加社交关系（如有名校、大厂等 title）  
+:::
+
+::: tip 各大公司招聘网站
+- 字节 https://jobs.bytedance.com/
+- 滴滴 https://talent.didiglobal.com/
+- 百度 https://talent.baidu.com/
+- 美团 https://hr.meituan.com/
+- 快手 https://zhaopin.kuaishou.cn/
+- 腾讯
+   - 校园招聘 https://join.qq.com/
+   - 社会招聘 https://careers.tencent.com/
+- 华为 https://career.huawei.com/
+- 阿里 https://talent.alibaba.com/
+- 蚂蚁 https://talent.antgroup.com/home
+- 小红书 https://job.xiaohongshu.com/
+- 科大讯飞 https://campus.iflytek.com/
+- 小米 https://hr.xiaomi.com/
+- Oppo https://careers.oppo.com/
+- 京东 https://zhaopin.jd.com/
+- 网易
+   - 校园招聘 https://campus.163.com/
+   - 社会招聘 https://hr.163.com/
+- 拼多多 https://careers.pddglobalhr.net/
+- 携程 https://job.ctrip.com/
+- 贝壳 https://campus.ke.com/
+- 联想 https://talent.lenovo.com.cn/
+:::
+
+## 投递简历
+- HR/系统筛选关键词（如技术栈、项目经验），建议简历需匹配岗位JD（Job Description），突出核心技能和成果
+- 简历使用 PDF 格式，不要用 word 文档！！！
+
+## 收到面试邀请
+如果你的简历被筛选通过，会收到 HR 的面试邀请。恭喜你，面试流程正式开始。
+
+准备好：纸、笔、打印简历、电脑。如果是现场面试，都带过去。
+
+如果有不错的项目，可以提前准备好给面试官进行演示。
+
+## HR 初步沟通
+一般 HR 会先和你做初步沟通，远程电话或视频形式，大约 20-30 分钟，以确定你这个人是可以正常沟通的，没有极端的情绪和沟通障碍。
+
+你可以提前看看 [HR 行为面试](/hr-interview/behavior) 的问题，在这一步有可能会问到其中的几个问题。
+
+## 一面
+技术面试，以考察基础知识为主。面试官一般是基层开发人员，你未来的同事。
+
+某些公司在一面开始之前，可能会让你做笔试题，考察算法、写代码、读代码等基础问题。
+
+::: tip  
+- 第一面可要求远程面试，大都会同意
+- 有的一面让你先在线测评，结构化面试  
+:::
+
+## 二面
+技术面试，以考察框架和项目为主。面试官一般是团队的高级/资深工程师/项目负责人，你未来的导师。
+
+二面结束后，很多公司会安排交叉面试，也是技术面试。交叉，即请其他团队的高级/资深工程师，再考察一遍。
+
+## 三面
+团队 Leader 面试，不在关注技术细节，多考察项目组织和设计能力，挖掘技术潜力。
+
+如果你是应届生或工作经验较少，没太多项目设计能力，三面可能会很快结束，但不代表你会被拒绝。
+
+## HR面
+所有技术面试都通过了以后，HR 会进行行为面试，然后谈薪资。但这一步不会立刻发 offer ，会有内部评审。
+
+## 发 offer
+如果 HR 面试没问题，且薪资谈妥，最后会正式发 offer 邮件，通知你哪天入职。
+
+PS. 入职前要和 HR 确认好，会签国家法定的劳动合同，会按照国家规定缴纳社保和公积金，最好能有商业医疗保险。这些在中大厂都是标配，但不是所有公司都有，自己确认好。
