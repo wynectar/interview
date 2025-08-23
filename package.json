@@ -6,6 +6,11 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "install:ci": "npm install --no-optional --legacy-peer-deps"
+  },
+  "resolutions": {
+    "**/@rollup/rollup-linux-x64-gnu": "npm:rollup@4.48.0",
+    "**/@rollup/rollup-darwin-x64": "npm:rollup@4.48.0"
   }
 }
