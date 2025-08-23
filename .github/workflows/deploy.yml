@@ -42,7 +42,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm ci --omit=optional --legacy-peer-deps # 或 npm ci / pnpm install / yarn install / bun install
+        # run: npm ci  # 或 npm ci / pnpm install / yarn install / bun install
+        run: |
+          npm install --omit=optional
+          # 手动安装缺失的模块或创建符号链接
+          npm install rollup@latest --no-save
+          npm ls rollup || true
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
