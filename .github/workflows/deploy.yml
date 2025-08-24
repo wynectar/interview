@@ -44,10 +44,11 @@ jobs:
       - name: Install dependencies
         # run: npm ci  # 或 npm ci / pnpm install / yarn install / bun install
         run: |
-          npm install --omit=optional
-          # 手动安装缺失的模块或创建符号链接
+          # 彻底清理并重新安装
+          rm -rf node_modules package-lock.json
+          npm install --omit=optional --legacy-peer-deps --no-audit --no-fund
+          # 确保 rollup 正确安装
           npm install rollup@latest --no-save
-          npm ls rollup || true
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
