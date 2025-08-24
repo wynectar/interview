@@ -45,7 +45,7 @@ jobs:
         # run: npm ci  # 或 npm ci / pnpm install / yarn install / bun install
         run: |
           # 彻底清理并重新安装
-          rm -rf node_modules package-lock.json
+          # rm -rf node_modules package-lock.json
           npm install --omit=optional --legacy-peer-deps --no-audit --no-fund
           # 确保 rollup 正确安装
           npm install rollup@latest --no-save
