@@ -111,7 +111,7 @@
     - 取最高阶项：O(n² + n) → O(n²)
     - 循环嵌套相乘：两层循环 → O(n × m)
 
-![复杂度](../imgs/complexity.jpg)
+![复杂度](../imgs/complexity.png)
 
 
 ### 什么是空间复杂度？⛰️
