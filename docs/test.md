@@ -31,4 +31,4 @@ print("Hello, Python!")
 ```
 :::
 
-<!-- ![](../imgs/this1.jpg) -->
+<!-- ![](../imgs/this1.png) -->
